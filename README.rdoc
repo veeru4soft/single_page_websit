@@ -1,0 +1,9 @@
+* Download application
+* Steps to do
+* cd to application
+* run bundle install
+* rake db:migrate
+* rake db:seed
+* rails s
+
+make sure to follow above steps before going to start application

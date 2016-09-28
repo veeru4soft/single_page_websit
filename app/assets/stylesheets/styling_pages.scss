@@ -1,0 +1,19 @@
+// Place all the styles related to the styling_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+	width: 100%;
+}
+
+.left-container, .right-container{
+	width: 50%;
+}
+.left-container{
+	float: left;
+}
+.right-container{
+	float: right;	
+}
+.footer{
+	padding: 100px;
+}

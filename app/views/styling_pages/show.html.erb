@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Font:</strong>
+  <%= @styling_page.font %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @styling_page.color %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @styling_page.title %>
+</p>
+
+<%= link_to 'Edit', edit_styling_page_path(@styling_page) %> |
+<%= link_to 'Back', styling_pages_path %>
